@@ -1,0 +1,707 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    background-color: #200086;
+    width: 100%;
+    height: 8vh;
+}
+
+.navbar-list {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar-list li {
+    list-style: none;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+
+.logo {
+    justify-content: flex-start;
+}
+
+.home {
+    justify-content: flex-end;
+}
+
+.content {
+    background-color: #eeeeee;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+.input-container label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #200086;
+}
+
+.inputStyle {
+    width: 50vw;
+    height: 5vh;
+    border: none;
+    padding-left: 1rem;
+}
+
+.phone-container {
+    width: 100%;
+    height: 45vh;
+    background-color: #200086;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.phone-box {
+    width: 23%;
+    height: 80%;
+    background-color: white;
+    border-radius: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    height: 100%;
+}
+
+.image2 {
+    height: 50%;
+
+}
+
+.details {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.details p {
+    font-size: 0.85rem;
+    color: gray;
+}
+
+.details button {
+    width: 30%;
+    height: 30%;
+    background-color: white;
+    border: 1px solid #200086;
+    border-radius: 5px;
+    color: #200086;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #200086;
+    width: 100%;
+    height: 8vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (width: 375px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    .navbar {
+        background-color: #200086;
+        width: 100%;
+        height: 8vh;
+    }
+    
+    .navbar-list {
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .navbar-list li {
+        list-style: none;
+        width: 40%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+    
+    
+    .logo {
+        justify-content: flex-start;
+    }
+    
+    .home {
+        justify-content: flex-end;
+    }
+    
+    .content {
+        background-color: #eeeeee;
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 15vh;
+    }
+    
+    .input-container label {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #200086;
+    }
+    
+    .inputStyle {
+        width: 50vw;
+        height: 5vh;
+        border: none;
+        padding-left: 1rem;
+    }
+    
+    .phone-container {
+        width: 100%;
+        height: 45vh;
+        background-color: #200086;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .phone-box {
+        width: 23%;
+        height: 80%;
+        background-color: white;
+        border-radius: 7%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .image {
+        width: 100%;
+        height: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .image img {
+        height: 100%;
+    }
+    
+    .image2 {
+        height: 50%;
+    
+    }
+    
+    .details {
+        width: 100%;
+        height: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .details p {
+        font-size: 0.85rem;
+        color: gray;
+    }
+    
+    .details button {
+        width: 30%;
+        height: 30%;
+        background-color: white;
+        border: 1px solid #200086;
+        border-radius: 5px;
+        color: #200086;
+        font-size: 0.8rem;
+        cursor: pointer;
+    }
+    
+    .footer {
+        background-color: #200086;
+        width: 100%;
+        height: 8vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+      
+}
+
+@media only screen and (max-width: 412px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .navbar {
+        background-color: #200086;
+        width: 100%;
+        height: 8vh;
+    }
+
+    .navbar-list {
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .navbar-list li {
+        list-style: none;
+        width: 40%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+
+
+    .logo {
+        justify-content: flex-start;
+    }
+
+    .home {
+        justify-content: flex-end;
+    }
+
+    .content {
+        background-color: #eeeeee;
+        width: 100%;
+        height: 180vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 10vh;
+    }
+
+    .input-container label {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #200086;
+    }
+
+    .inputStyle {
+        width: 80vw;
+        height: 5vh;
+        border: none;
+        padding-left: 1rem;
+    }
+
+    .phone-container {
+        width: 100%;
+        height: 130vh;
+        background-color: #200086;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .phone-box {
+        width: 90%;
+        height: 22%;
+        background-color: white;
+        border-radius: 7%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .image {
+        width: 100%;
+        height: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image img {
+        height: 100%;
+    }
+
+    .image2 {
+        height: 50%;
+
+    }
+
+    .details {
+        width: 100%;
+        height: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .details p {
+        font-size: 0.85rem;
+        color: gray;
+    }
+
+    .details button {
+        width: 30%;
+        height: 30%;
+        background-color: white;
+        border: 1px solid #200086;
+        border-radius: 5px;
+        color: #200086;
+        font-size: 0.8rem;
+        cursor: pointer;
+    }
+
+    .footer {
+        background-color: #200086;
+        width: 100%;
+        height: 8vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .navbar {
+        background-color: #200086;
+        width: 100%;
+        height: 8vh;
+    }
+
+    .navbar-list {
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .navbar-list li {
+        list-style: none;
+        width: 40%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+
+
+    .logo {
+        justify-content: flex-start;
+    }
+
+    .home {
+        justify-content: flex-end;
+    }
+
+    .content {
+        background-color: #eeeeee;
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 15vh;
+    }
+
+    .input-container label {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #200086;
+    }
+
+    .inputStyle {
+        width: 50vw;
+        height: 5vh;
+        border: none;
+        padding-left: 1rem;
+    }
+
+    .phone-container {
+        width: 100%;
+        height: 45vh;
+        background-color: #200086;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .phone-box {
+        width: 23%;
+        height: 80%;
+        background-color: white;
+        border-radius: 7%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .image {
+        width: 100%;
+        height: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image img {
+        height: 100%;
+    }
+
+    .image2 {
+        height: 50%;
+
+    }
+
+    .details {
+        width: 100%;
+        height: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .details p {
+        font-size: 0.85rem;
+        color: gray;
+    }
+
+    .details button {
+        width: 30%;
+        height: 30%;
+        background-color: white;
+        border: 1px solid #200086;
+        border-radius: 5px;
+        color: #200086;
+        font-size: 0.8rem;
+        cursor: pointer;
+    }
+
+    .footer {
+        background-color: #200086;
+        width: 100%;
+        height: 8vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width: 1920px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .navbar {
+        background-color: #200086;
+        width: 100%;
+        height: 8vh;
+    }
+
+    .navbar-list {
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .navbar-list li {
+        list-style: none;
+        width: 40%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+
+
+    .logo {
+        justify-content: flex-start;
+    }
+
+    .home {
+        justify-content: flex-end;
+    }
+
+    .content {
+        background-color: #eeeeee;
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 15vh;
+    }
+
+    .input-container label {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #200086;
+    }
+
+    .inputStyle {
+        width: 50vw;
+        height: 5vh;
+        border: none;
+        padding-left: 1rem;
+    }
+
+    .phone-container {
+        width: 100%;
+        height: 45vh;
+        background-color: #200086;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .phone-box {
+        width: 23%;
+        height: 80%;
+        background-color: white;
+        border-radius: 7%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .image {
+        width: 100%;
+        height: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image img {
+        height: 100%;
+    }
+
+    .image2 {
+        height: 50%;
+
+    }
+
+    .details {
+        width: 100%;
+        height: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .details p {
+        font-size: 0.85rem;
+        color: gray;
+    }
+
+    .details button {
+        width: 30%;
+        height: 30%;
+        background-color: white;
+        border: 1px solid #200086;
+        border-radius: 5px;
+        color: #200086;
+        font-size: 0.8rem;
+        cursor: pointer;
+    }
+
+    .footer {
+        background-color: #200086;
+        width: 100%;
+        height: 8vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
